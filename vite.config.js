@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/Portfolio/', // Base URL for the site
   build: {
     rollupOptions: {
       input: {

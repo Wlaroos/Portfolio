@@ -23,7 +23,7 @@
 .hero__title{
     color: var(--clr-slate400);
     text-transform: uppercase;
-    font-size: var(--size-4xl);
+    font-size: var(--size-2xl);
     letter-spacing: -0.05em;
     line-height: 0.9;
 }
@@ -55,7 +55,7 @@
     }
     
     .hero__title{
-        font-size: var(--size-5xl);
+        font-size: var(--size-3xl);
     }
     
     .hero__description{
@@ -84,7 +84,7 @@
     }
     
     .hero__title{
-        font-size: var(--size-7xl);
+        font-size: var(--size-5xl);
     }
     
     .hero__description{
@@ -112,7 +112,7 @@
     }
     
     .hero__title{
-        font-size: var(--size-9xl);
+        font-size: var(--size-7xl);
     }
     
     .hero__description{
