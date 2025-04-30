@@ -11,22 +11,25 @@
 /* 2xL */
 /* @media (min-width: 1536px) {} */
 
-.btn{
+.btn {
     display: inline-block;
     font-weight: 600;
     text-decoration: none;
     letter-spacing: -0.05em;
-    background-color: var(--clr-rose);
-    color: #f1f5f9;
+    background-color: transparent; /* Remove background */
+    color: var(--clr-rose); /* Set text color */
     padding: 0.5em 1em;
+    border: 2px solid var(--clr-rose); /* Add border */
     border-radius: 6px;
-    box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5), 0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
-    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 5px 10px rgba(225, 29, 72, 0.5), 0 3px 3px rgba(225, 29, 72, 0.5), 0 0 155px -10px var(--clr-rose);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
 }
 
-.btn:hover{
+.btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25), 0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+    background-color: var(--clr-rose); /* Add background on hover */
+    color: #f1f5f9; /* Change text color on hover */
+    box-shadow: 0 7px 14px rgba(225, 29, 72, 0.25), 0 10px 10px rgba(225, 29, 72, 0.22), 0 0 155px -10px var(--clr-rose);
 }
 
 .container {
