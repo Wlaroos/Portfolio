@@ -46,7 +46,7 @@
     }
     
     .header__link:hover{
-        color: var(--clr-rose);
+        color: var(--clr-purple);
     }
     
     .header__line {

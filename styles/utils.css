@@ -17,19 +17,19 @@
     text-decoration: none;
     letter-spacing: -0.05em;
     background-color: transparent; /* Remove background */
-    color: var(--clr-rose); /* Set text color */
+    color: var(--clr-purple); /* Set text color */
     padding: 0.5em 1em;
-    border: 2px solid var(--clr-rose); /* Add border */
+    border: 2px solid var(--clr-purple); /* Add border */
     border-radius: 6px;
-    box-shadow: 0 5px 10px rgba(225, 29, 72, 0.5), 0 3px 3px rgba(225, 29, 72, 0.5), 0 0 155px -10px var(--clr-rose);
+    box-shadow: 0 5px 10px var(--clr-purple_transparent_50), 0 3px 3px var(--clr-purple_transparent_50), 0 0 155px -10px var(--clr-purple);
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
 }
 
 .btn:hover {
-    transform: translateY(-3px);
-    background-color: var(--clr-rose); /* Add background on hover */
+    transform: translateY(-2px);
+    background-color: var(--clr-purple); /* Add background on hover */
     color: #f1f5f9; /* Change text color on hover */
-    box-shadow: 0 7px 14px rgba(225, 29, 72, 0.25), 0 10px 10px rgba(225, 29, 72, 0.22), 0 0 155px -10px var(--clr-rose);
+    box-shadow: 0 7px 14px var(--clr-purple_transparent_25), 0 10px 10px var(--clr-purple_transparent_22), 0 0 155px -10px var(--clr-purple);
 }
 
 .container {

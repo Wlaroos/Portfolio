@@ -6,6 +6,18 @@
     --clr-slate800: #1e293b;
     --clr-rose: #e11d48;
     --clr-indigo: #4f46e5;
+    --clr-purple: #7455e2;
+
+    --clr-purple_transparent_50: rgba(115, 85, 226, 0.5);
+    --clr-purple_transparent_25: rgba(115, 85, 226, 0.25);
+    --clr-purple_transparent_22: rgba(115, 85, 226, 0.22);
+    
+    --clr-indigo_light_mode: #00ff7f;
+    --clr-purple_light_mode: #00fa9a;
+
+    --clr-purple_transparent_50_light_mode: rgba(0, 250, 154, 0.5);
+    --clr-purple_transparent_25_light_mode: rgba(0, 250, 154, 0.25);
+    --clr-purple_transparent_22_light_mode: rgba(0, 250, 154, 0.22);
 
     /* rose rgb(225, 29, 72) */
     /* indigo rgb(79, 70, 229) */
@@ -43,6 +55,19 @@ html{
     --clr-slate400: #1e293b;
     --clr-slate600: #1e293b;
     --clr-slate800: #1e293b;
+
+    --clr-light: #0f2913;
+    --clr-dark: #a48cbe;
+    --clr-slate400: #1e3b25;
+    --clr-slate600: #1e3b1e;
+    --clr-slate800: #1e3b1e;
+
+    --clr-purple:var(--clr-purple_light_mode);
+    --clr-indigo: var(--clr-indigo_light_mode);
+
+    --clr-purple_transparent_50: var(--clr-purple_transparent_50_light_mode);
+    --clr-purple_transparent_25: var(--clr-purple_transparent_25_light_mode);
+    --clr-purple_transparent_22: var(--clr-purple_transparent_22_light_mode);
 }
 
 body{
@@ -71,7 +96,7 @@ button{
 }
 
 a{
-    color: var(--clr-rose);
+    color: var(--clr-purple);
 }
 
 strong{
@@ -88,6 +113,6 @@ body::-webkit-scrollbar {
   }
    
   body::-webkit-scrollbar-thumb {
-    background-color: var(--clr-rose);
-    outline: 1px solid var(--clr-rose);
+    background-color: var(--clr-indigo);
+    outline: 1px solid var(--clr-indigo);
   }
